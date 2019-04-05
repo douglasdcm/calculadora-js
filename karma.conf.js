@@ -1,5 +1,5 @@
-// Karma configuration
-// Generated on Thu Apr 04 2019 21:05:05 GMT-0300 (GMT-03:00)
+    // Karma configuration
+// Generated on Thu Apr 04 2019 14:32:36 GMT-0300 (GMT-03:00)
 
 module.exports = function(config) {
   config.set({
@@ -10,7 +10,7 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine','browserify'],
+    frameworks: ['jasmine', 'browserify'],
 
 
     // list of files / patterns to load in the browser
@@ -22,13 +22,14 @@ module.exports = function(config) {
 
     // list of files / patterns to exclude
     exclude: [
+      'yes'
     ],
 
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-        'spec/**/Spec.js':['browserify']
+        'spec/**/*Spec.js': ['browserify']
     },
 
 
